@@ -1,0 +1,65 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+NavLi {
+	color: #fff;
+}
+
+.wrapper {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.flex-container {
+	position: relative;
+	display: flex !important;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#home-hero {
+	position: relative;
+	display: block;
+	height: 100vh;
+	min-height: 600px;
+	max-height: 800px;
+	color: #fff;
+}
+
+#home-hero .img-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: none !important;
+}
+
+.img-container .bg-img {
+	position: absolute;
+	width: 110%;
+	height: 110%;
+	left: -5%;
+	top: -5%;
+}
+
+.bg-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.scrolldown {
+	position: absolute;
+	right: 7vw;
+	transform: rotate(-90deg);
+	font-size: 15px;
+	letter-spacing: -0.015em;
+	top: 80%;
+}
