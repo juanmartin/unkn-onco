@@ -2,6 +2,7 @@
 	import Section from '../utils/components/Section.svelte';
 	import Section2 from '../utils/components/Section2.svelte';
 	import Section3 from '../utils/components/Section3.svelte';
+	import Team from '../utils/components/Team..svelte';
 </script>
 
 <Section
@@ -25,3 +26,5 @@
 	img="our-platform-2.jpg"
 	infoClass="-mt-16"
 />
+
+<Team />
